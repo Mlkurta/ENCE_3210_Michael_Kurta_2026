@@ -18,8 +18,8 @@ struct s_Quadratic quadratic(int a, int b, int c){
     
     if(w >= 0){
         
-        x.x1 = (b + w) / (2 * a);
-        x.x2 = (b - w) / (2 * a);
+        x.x1 = (-b + w) / (2 * a);
+        x.x2 = (-b - w) / (2 * a);
         
     }else{
         
@@ -43,4 +43,5 @@ int main()
     printf("Result: %.2f, %.2f", y.x1, y.x2);
 
     return 0;
+
 }
