@@ -3,13 +3,14 @@
 
 
 // Global variables
+// Struct for quadratic roots
 struct s_Quadratic
 {
     float x1;
     float x2;
 };
 
-
+// Quadratic function, returns struct of roots
 struct s_Quadratic quadratic(int a, int b, int c){
     
     struct s_Quadratic x;
@@ -35,13 +36,16 @@ struct s_Quadratic quadratic(int a, int b, int c){
 
 int main()
 {   
-
+    // Initialize struct
     struct s_Quadratic y;
-    
+
+    // *Enter your coefficients here
     y = quadratic(1, -4, 4);
-    
+
+    // print results, change # in .#f for number of decimal place precision
     printf("Result: %.2f, %.2f", y.x1, y.x2);
 
     return 0;
 
 }
+
