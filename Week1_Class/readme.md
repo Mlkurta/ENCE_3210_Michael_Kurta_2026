@@ -11,4 +11,6 @@ Note that this program does not calculate complex roots; it will calculate real 
 
 ## user_entered_array.c
 This is a very sinmple program which takes in user entries to fill an array of 10 items with user-entered integers.
-It uses scanf() to receive user inputs.  Once the array is full of integers, the program outputs all of the user-entered integers back.
+It uses scanf() to receive user inputs.  Once the array is full of integers, the program outputs all of the user-entered integers back. It also prints the sum and average of all of the numbers in the array.
+
+<img width="1976" height="904" alt="Screenshot 2026-01-12 130549" src="https://github.com/user-attachments/assets/4befcbc1-ba9d-47a7-b2d9-242c2d9487a8" />
