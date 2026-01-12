@@ -9,4 +9,4 @@ This program calculates the roots of a quadratic function (in the form Ax + Bx +
 ## cos_loop.ino
 This program fill an array with the cosine values from 0 to 360 degrees (361 entries). It then prints the contents of the loop. 
 
-<img width="829" height="1219" alt="Screenshot 2026-01-12 133823" src="https://github.com/user-attachments/assets/70a0c908-8bf1-4499-92e6-326180500b0b" />
+<img width="500" height="1219" alt="Screenshot 2026-01-12 133823" src="https://github.com/user-attachments/assets/70a0c908-8bf1-4499-92e6-326180500b0b" />
