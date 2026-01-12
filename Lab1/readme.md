@@ -1,1 +1,12 @@
+# Lab 1 Projects
 
+## quadratic.ino
+This program calculates the roots of a quadratic function (in the form Ax + Bx + C). Enter your desired values for the function call in setup() for the quadratic function in the form quadratic(int A, int B, int C). Note that this program does not calculate complex roots; it will calculate real roots if the roots are real and will denote if the roots are complex if they are complex. The results are printed to the serial terminal.
+
+<img width="1102" height="1084" alt="Screenshot 2026-01-12 133654" src="https://github.com/user-attachments/assets/8ce33887-af1d-4112-a23d-a95366b10756" />
+
+
+## cos_loop.ino
+This program fill an array with the cosine values from 0 to 360 degrees (361 entries). It then prints the contents of the loop. 
+
+<img width="829" height="1219" alt="Screenshot 2026-01-12 133823" src="https://github.com/user-attachments/assets/70a0c908-8bf1-4499-92e6-326180500b0b" />
