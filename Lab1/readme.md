@@ -23,7 +23,16 @@ occurrences of each letter in the array
 
 ![RGBString](https://github.com/user-attachments/assets/c28fab99-9c53-4777-b245-ff73a0d5b406)
 
-## 
+## pattern_detect.ino
+Problem: Write a C program to detect a specified pattern with three entries in an array. The pattern is saved in
+another array. When the pattern is detected, the green color LED will turn on. If the pattern is not
+detected, the red color LED will turn on at the end of the program. Your program should count the
+number of occurrences of the pattern.
+
+I used ChatGPT for suggestions on how to check for the pattern. It uses a loop that incorporates a sliding window to detect for the target pattern.
+It also uses the serial terminal to indicate if/ when LEDs turn on or off.
+
+
 
 ## LED_Sequence.ino
 Problem: We would like to turn on and off the red, green, and blue LEDs in a sequence. Therefore, write a C
