@@ -10,3 +10,9 @@ This program calculates the roots of a quadratic function (in the form Ax + Bx +
 This program fill an array with the cosine values from 0 to 360 degrees (361 entries). It then prints the contents of the loop. 
 
 <img width="500" height="1219" alt="Screenshot 2026-01-12 133823" src="https://github.com/user-attachments/assets/70a0c908-8bf1-4499-92e6-326180500b0b" />
+
+## two_highest.ino
+This program will search for the second highest value in an array of 50 elements. It will then print the contents of the 50 elements and then print the second highest value in the array.
+
+<img width="500" height="1205" alt="Screenshot 2026-01-12 134333" src="https://github.com/user-attachments/assets/e8c379e7-17ba-4f93-b124-c55fc1491435" />
+
