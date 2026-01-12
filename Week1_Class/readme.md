@@ -9,6 +9,9 @@ This program calculates the roots of a quadratic function (in the form Ax + Bx +
 Enter your desired values for the function call in main() for the quadratic function in the form quadratic(int A, int B, int C).
 Note that this program does not calculate complex roots; it will calculate real roots if the roots are real and will denote if the roots are complex if they are complex.
 
+<img width="1983" height="1197" alt="image" src="https://github.com/user-attachments/assets/f50647b2-1484-4d93-9b82-ba02447b8fb5" />
+
+
 ## user_entered_array.c
 This is a very sinmple program which takes in user entries to fill an array of 10 items with user-entered integers.
 It uses scanf() to receive user inputs.  Once the array is full of integers, the program outputs all of the user-entered integers back. It also prints the sum and average of all of the numbers in the array.
