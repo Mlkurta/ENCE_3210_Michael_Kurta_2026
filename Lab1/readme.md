@@ -16,3 +16,9 @@ This program will search for the second highest value in an array of 50 elements
 
 <img width="500" height="1205" alt="Screenshot 2026-01-12 134333" src="https://github.com/user-attachments/assets/e8c379e7-17ba-4f93-b124-c55fc1491435" />
 
+## R_G_B_string.ino
+Problem: Write a C program to find the R, G, and B letters in an array. If the letters are detected, the red,
+green, and blue colors LEDs will turn on, respectively. Your program should count the number of
+occurrences of each letter in the array
+
+![RGBString](https://github.com/user-attachments/assets/c28fab99-9c53-4777-b245-ff73a0d5b406)
