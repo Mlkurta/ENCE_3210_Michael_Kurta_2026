@@ -3,7 +3,7 @@
 ## quadratic.ino
 This program calculates the roots of a quadratic function (in the form Ax + Bx + C). Enter your desired values for the function call in setup() for the quadratic function in the form quadratic(int A, int B, int C). Note that this program does not calculate complex roots; it will calculate real roots if the roots are real and will denote if the roots are complex if they are complex. The results are printed to the serial terminal.
 
-<img width="1102" height="1084" alt="Screenshot 2026-01-12 133654" src="https://github.com/user-attachments/assets/8ce33887-af1d-4112-a23d-a95366b10756" />
+<img width="802" height="1084" alt="Screenshot 2026-01-12 133654" src="https://github.com/user-attachments/assets/8ce33887-af1d-4112-a23d-a95366b10756" />
 
 
 ## cos_loop.ino
