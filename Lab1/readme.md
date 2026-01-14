@@ -19,7 +19,7 @@ This program will search for the second highest value in an array of 50 elements
 ## char_LEDs.ino
 Problem: Write a C program to find the R, G, and B letters in an array. If the letters are detected, the red,
 green, and blue colors LEDs will turn on, respectively. Your program should count the number of
-occurrences of each letter in the array
+occurrences of each letter in the array. The test word here is "biogeographer", so you'll see Blue, Green, Green, Red, Red.
 
 ![RGBString](https://github.com/user-attachments/assets/c28fab99-9c53-4777-b245-ff73a0d5b406)
 
