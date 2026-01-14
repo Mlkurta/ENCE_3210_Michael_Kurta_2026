@@ -43,4 +43,9 @@ b) This procedure is repeated until the button is pressed again.
 
 ![LedSequence](https://github.com/user-attachments/assets/b1a52bbd-6eb5-43e3-8aac-be5697db6768)
 
+## simple_calculator.ino
+This sketch controls a program which is controlled by two buttons. There are three arrays: two input arrays and one output array. The program conducts add, subtract, and multiply operations
+between array one and array two and writes the results to array 3. Which operation is conducted depends on user input. If the user presses the select button once, adding will be conducted. Two presses,
+subtracting will be done. Three or more presses will conduct multiplication and print the results. THe user must press a second button after pressing the select button to execute. This will light either a red (add),
+green (subtract) or both red and green (multiply) LEDs. 
 
