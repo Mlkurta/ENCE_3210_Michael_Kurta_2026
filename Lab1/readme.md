@@ -33,6 +33,7 @@ I used ChatGPT for suggestions on how to check for the pattern. It uses a loop t
 It also uses the serial terminal to indicate if/ when LEDs turn on or off.
 
 
+![pattern_detect](https://github.com/user-attachments/assets/85d441bd-9290-48c0-824f-55e43e58fd17)
 
 ## LED_Sequence.ino
 Problem: We would like to turn on and off the red, green, and blue LEDs in a sequence. Therefore, write a C
@@ -41,11 +42,17 @@ a) When the button is pressed, turn on the red, green, and blue color LEDs with 
 order: R – RG – RGB – GB – B – RB
 b) This procedure is repeated until the button is pressed again.
 
+I used a long word: "geobiographer" with all three letters.
+
 ![LedSequence](https://github.com/user-attachments/assets/b1a52bbd-6eb5-43e3-8aac-be5697db6768)
 
 ## simple_calculator.ino
 This sketch controls a program which is controlled by two buttons. There are three arrays: two input arrays and one output array. The program conducts add, subtract, and multiply operations
 between array one and array two and writes the results to array 3. Which operation is conducted depends on user input. If the user presses the select button once, adding will be conducted. Two presses,
 subtracting will be done. Three or more presses will conduct multiplication and print the results. THe user must press a second button after pressing the select button to execute. This will light either a red (add),
-green (subtract) or both red and green (multiply) LEDs. 
+green (subtract) or both red and green (multiply) LEDs. The count is reset once the execute button is pressed. I used ChatGPT for ideas on how to debounce the buttons without having a large delay. 
+
+![simple_calculator](https://github.com/user-attachments/assets/f0382f51-0901-46a8-8282-de3fe59e35b6)
+
+
 
