@@ -5,7 +5,7 @@ This program computes 2 time the square of numbers 0 to 511 and saves them into 
 an unsigned 16 bit integer, we must declare a 32-bit integer (unsigned optional). But since a 32 bit integer occupies 4 bytes, and there are 512 of them to be initialized, that occupies
 4 * 512 = 2048 bytes. When you add other SRAM requirements, that exceeds the available RAM on the device. Therefore, this was completed in a standard C compiler found here: https://www.onlinegdb.com/online_c_compiler#
 
-
+<img width="990" height="1097" alt="Screenshot 2026-01-15 191837" src="https://github.com/user-attachments/assets/e5a073d7-d507-4a11-8b49-43a330cdfc5c" />
 
 ## cos_loop.ino
 This program fill an array with the cosine values from 0 to 360 degrees (361 entries). It then prints the contents of the loop. There is not much to note about this exercise, other than the fact that the arduino built-in cosine
