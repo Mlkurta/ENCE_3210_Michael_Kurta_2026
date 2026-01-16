@@ -23,7 +23,8 @@ number is only higher than the second highest number, then over-write only the s
 ## R_G_B_string.ino
 Problem: Write a C program to find the R, G, and B letters in an array. If the letters are detected, the red,
 green, and blue colors LEDs will turn on, respectively. Your program should count the number of
-occurrences of each letter in the array. The test word here is "biogeographer", so you'll see Blue, Green, Green, Red, Red.
+occurrences of each letter in the array. 
+The test word here is "biogeographer", so you'll see Blue, Green, Green, Red, Red.
 This was relatively straightforward. Loop through the array and look for matching g, b, or r characters (and their Caps versions), 
 and print & light the desired color.
 
