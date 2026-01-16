@@ -14,14 +14,18 @@ functions require the values to be in radians. Therefore, the degrees must be co
 <img width="500" height="1219" alt="Screenshot 2026-01-12 133823" src="https://github.com/user-attachments/assets/70a0c908-8bf1-4499-92e6-326180500b0b" />
 
 ## two_highest.ino
-This program will search for the second highest value in an array of 50 elements. It will then print the contents of the 50 elements and then print the second highest value in the array.
+This program will search for the second highest value in an array of 50 elements. It will then print the contents of the 50 elements and then print the second highest value in the array. I struggled with this one for a bit, thinking
+I had to over-write the maximum value first if I found the highest number. But the way to do it is if you find the highest number, save the current highest value as the second highest, and then save the new highest. Otherwise, if the current
+number is only higher than the second highest number, then over-write only the second highest variable.
 
 <img width="500" height="1205" alt="Screenshot 2026-01-12 134333" src="https://github.com/user-attachments/assets/e8c379e7-17ba-4f93-b124-c55fc1491435" />
 
-## char_LEDs.ino
+## R_G_B_string.ino
 Problem: Write a C program to find the R, G, and B letters in an array. If the letters are detected, the red,
 green, and blue colors LEDs will turn on, respectively. Your program should count the number of
 occurrences of each letter in the array. The test word here is "biogeographer", so you'll see Blue, Green, Green, Red, Red.
+This was relatively straightforward. Loop through the array and look for matching g, b, or r characters (and their Caps versions), 
+and print & light the desired color.
 
 ![RGBString](https://github.com/user-attachments/assets/c28fab99-9c53-4777-b245-ff73a0d5b406)
 
