@@ -5,7 +5,6 @@ This program computes 2 time the square of numbers 0 to 511 and saves them into 
 an unsigned 16 bit integer, we must declare a 32-bit integer (unsigned optional). But since a 32 bit integer occupies 4 bytes, and there are 512 of them to be initialized, that occupies
 4 * 512 = 2048 bytes. When you add other SRAM requirements, that exceeds the available RAM on the device. Therefore, this was completed in a standard C compiler found here: https://www.onlinegdb.com/online_c_compiler#
 
-<img width="602" height="1084" alt="Screenshot 2026-01-12 133654" src="https://github.com/user-attachments/assets/8ce33887-af1d-4112-a23d-a95366b10756" />
 
 
 ## cos_loop.ino
