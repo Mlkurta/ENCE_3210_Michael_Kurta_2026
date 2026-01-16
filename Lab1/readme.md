@@ -48,6 +48,9 @@ a) When the button is pressed, turn on the red, green, and blue color LEDs with 
 order: R – RG – RGB – GB – B – RB
 b) This procedure is repeated until the button is pressed again.
 
+I used a "state machine" type sequence with a case statement that increments through the loop and lights the required LEDs. Though not specified,
+I made it so the sequence resets if the button is pressed a second time. The button press toggles a running / !running sequence.
+
 
 ![LedSequence](https://github.com/user-attachments/assets/b1a52bbd-6eb5-43e3-8aac-be5697db6768)
 
