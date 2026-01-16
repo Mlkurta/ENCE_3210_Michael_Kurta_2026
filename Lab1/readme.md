@@ -1,13 +1,16 @@
 # Lab 1 Projects
 
-## quadratic.ino
-This program calculates the roots of a quadratic function (in the form Ax + Bx + C). Enter your desired values for the function call in setup() for the quadratic function in the form quadratic(int A, int B, int C). Note that this program does not calculate complex roots; it will calculate real roots if the roots are real and will denote if the roots are complex if they are complex. The results are printed to the serial terminal.
+## twice_square.c
+This program computes 2 time the square of numbers 0 to 511 and saves them into an array and prints the values. Since the highest value attained is 522,242, which is greater than
+an unsigned 16 bit integer, we must declare a 32-bit integer (unsigned optional). But since a 32 bit integer occupies 4 bytes, and there are 512 of them to be initialized, that occupies
+4 * 512 = 2048 bytes. When you add other SRAM requirements, that exceeds the available RAM on the device. Therefore, this was completed in a standard C compiler found here: https://www.onlinegdb.com/online_c_compiler#
 
 <img width="602" height="1084" alt="Screenshot 2026-01-12 133654" src="https://github.com/user-attachments/assets/8ce33887-af1d-4112-a23d-a95366b10756" />
 
 
 ## cos_loop.ino
-This program fill an array with the cosine values from 0 to 360 degrees (361 entries). It then prints the contents of the loop. 
+This program fill an array with the cosine values from 0 to 360 degrees (361 entries). It then prints the contents of the loop. There is not much to note about this exercise, other than the fact that the arduino built-in cosine
+functions require the values to be in radians. Therefore, the degrees must be converted to radians first. 
 
 <img width="500" height="1219" alt="Screenshot 2026-01-12 133823" src="https://github.com/user-attachments/assets/70a0c908-8bf1-4499-92e6-326180500b0b" />
 
@@ -42,7 +45,6 @@ a) When the button is pressed, turn on the red, green, and blue color LEDs with 
 order: R – RG – RGB – GB – B – RB
 b) This procedure is repeated until the button is pressed again.
 
-I used a long word: "geobiographer" with all three letters.
 
 ![LedSequence](https://github.com/user-attachments/assets/b1a52bbd-6eb5-43e3-8aac-be5697db6768)
 
