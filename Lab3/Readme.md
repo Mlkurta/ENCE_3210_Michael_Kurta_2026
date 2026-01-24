@@ -6,7 +6,7 @@ This project has a number of requirements:
 
 ## Thought process
 
-1. The determination of timers (labelled 1 and 2) automatically means using timer interrupts.
+1. The determination of timers (labelled 1 and 2) automatically means using timer interrupts. This means using volatile flags to change in the interrupts and then checking their state / resetting if necessary in main().
 
 2. Blinking a green LED once every second would be easily handled with a 1/2 second timer interrupt to toggle the LED.
 
@@ -18,6 +18,12 @@ This project has a number of requirements:
 
 6. A random value will be generated to select which message to use. Activate the ADC and use analogRead() to produce a pseudo-random number as a seed for random values, i.e. randomSeed().
 
+7. Since the maximum prescalar value for Timer 2 (TCCR2B) is 1024, and the highest the Timer 2 output compare register counter (OCR2A) can be set to is 255, then a task rate of once every .1 second cannot be achieved unless we use another volatile global counter variable.
+
 ## Block Diagram
 
-![IMG_0427](https://github.com/user-attachments/assets/3bb0254c-ef0a-440b-9fa0-0ca6b319ac05)
+<img width="600" height="633" alt="IMG_0427" src="https://github.com/user-attachments/assets/3bb0254c-ef0a-440b-9fa0-0ca6b319ac05" />
+
+## Operation
+
+![image0](https://github.com/user-attachments/assets/dfb0beef-5153-4bd9-953f-9b7b3a2baddc)
