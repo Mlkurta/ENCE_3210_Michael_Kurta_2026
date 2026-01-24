@@ -10,7 +10,7 @@
 #define MAX_LEN 59                              // Maximum message length
 #define NUM_STRINGS 9                           // Number of strings
 
-#define TIMER1_COMPARE_500MS 31250              // 16 MHz / 256 prescalar = T = 16 us * 31250 = .5s
+#define TIMER1_COMPARE_500MS 31249              // 16 MHz / 256 prescalar = T = 16 us * 31250 = .5s
 #define TIMER2_COMPARE_10MS 155                 // 16 MHz / 1024 prescalar = T = 64 us * 155 = ~.01 s
 
 volatile bool gISRFlagTask1 = false;            // Task 1 flag
