@@ -20,6 +20,20 @@ This project has a number of requirements:
 
 7. Since the maximum prescalar value for Timer 2 (TCCR2B) is 1024, and the highest the Timer 2 output compare register counter (OCR2A) can be set to is 255, then a task rate of once every .1 second cannot be achieved unless we use another volatile global counter variable.
 
+   $T_{timer2} = \frac{1024}{16 MHz} = 64 \mu s$
+
+   For ease of calculation, we can start and see if we can do 0.01 seconds using a maximum count setting of 255:
+
+   $64 \mu s * (255 + 1) =  0.0163 s > 0.01s$
+
+   We can indeed, so now we figure out how many counts we need to set OCR2A to to get closest to 0.01s.
+
+   $\frac{0.01s}{64 \mu s} - 1 = 155.25$......we'll call it $155$.
+
+   Remember to account for an extra count to reset the counter. So this is our setting: 155. Just to confirm:
+
+   $(155 + 1) * 64 \mu s = 9.92 ms$
+
 ## Block Diagram
 
 <img width="600" height="633" alt="IMG_0427" src="https://github.com/user-attachments/assets/3bb0254c-ef0a-440b-9fa0-0ca6b319ac05" />
@@ -27,3 +41,9 @@ This project has a number of requirements:
 ## Operation
 
 ![image0](https://github.com/user-attachments/assets/dfb0beef-5153-4bd9-953f-9b7b3a2baddc)
+
+## xor_decoder.py
+
+Paste your desired message string for the variable s, then run. Copy + paste your new scrambled message.
+
+<img width="1200" height="413" alt="Screenshot 2026-01-24 154445" src="https://github.com/user-attachments/assets/33d929df-0c8d-4bc0-ac0a-51988a2dbe34" />
