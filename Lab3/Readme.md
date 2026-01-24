@@ -18,7 +18,7 @@ This project has a number of requirements:
 
 6. A random value will be generated to select which message to use. Activate the ADC and use analogRead() to produce a pseudo-random number as a seed for random values, i.e. randomSeed().
 
-7. Using Timer 1, it's maximum output compare counter (OCR1A) value is that of a 16-bit unsigned integer: 65,535. I was lazy and already had a sketch with Timer1 prepared for 1 second with a counter value of 62,500; so I just had to divide it by two. But more formally, this is how it fits.
+7. Using Timer 1, it's maximum output compare counter (OCR1A) value is that of a 16-bit unsigned integer: 65,535. I was lazy and already had a sketch with Timer1 prepared for 1 second with a counter value of 62,500; so I just had to divide it by two. But more formally, this is how it fits:
 
    $T_{Timer1} = \frac{256}{16 MHz} = 16 \mu s$
 
