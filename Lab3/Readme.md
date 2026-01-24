@@ -14,7 +14,7 @@ This project has a number of requirements:
 
 4. Since the main tasks execution required Task 1 to increment a number, make the number a decently high unsigned value (16 bit +), and then in main(), for the main tasks, use a modulo to trigger the main tasks when counter % value == 0.
 
-5. Have a message bank declared in a 2d char array to print individual lines. Obfuscate the messages externally and paste them into the array, then use an XOR-based decoder (xor_encoder.py, see below) to decode the messages, one at a time into a buffer. Then print the buffer.
+5. Have a message bank declared in a 2d char array to print individual lines. Obfuscate the messages externally (xor_encoder.py, see below) and paste them into the array, then use an XOR-based decoder (with ChatGPT help) to decode the messages, one at a time into a buffer. Then print the buffer.
 
 6. A random value will be generated to select which message to use. Activate the ADC and use analogRead() to produce a pseudo-random number as a seed for random values, i.e. randomSeed().
 
