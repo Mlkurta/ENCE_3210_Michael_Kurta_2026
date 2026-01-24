@@ -20,27 +20,27 @@ This project has a number of requirements:
 
 7. Using Timer 1, it's maximum output compare counter (OCR1A) value is that of a 16-bit unsigned integer: 65,535. I was lazy and already had a sketch with Timer1 prepared for 1 second with a counter value of 62,500; so I just had to divide it by two. But more formally, this is how it fits.
 
-   $T_{timer1} = \frac{256}{16 MHz} = 16 \mu s$
+   $T_{Timer1} = \frac{256}{16 MHz} = 16 \mu s$
 
    We take our desired Interrupt interval time (0.5s) and figure out what we need to count to:
 
-   $\frac{0.5s}{16 \mu s} - 1 = 31249$
+   $OCR1A = \frac{0.5s}{16 \mu s} - 1 = 31249$
 
 9. Since the maximum prescalar value for Timer 2 (TCCR2B) is 1024, and the highest the Timer 2 output compare register counter (OCR2A) can be set to is 255, then a task rate of once every .1 second cannot be achieved unless we use another volatile global counter variable.
 
-   $T_{timer2} = \frac{1024}{16 MHz} = 64 \mu s$
+   $T_{Timer2} = \frac{1024}{16 MHz} = 64 \mu s$
 
    For ease of calculation, we can start and see if we can do 0.01 seconds using a maximum count setting of 255:
 
-   $64 \mu s * (255 + 1) =  0.0163 s > 0.01s$
+   $T_{Timer2Max} = 64 \mu s * (255 + 1) =  0.0163 s > 0.01s$
 
    We can indeed, so now we figure out how many counts we need to set OCR2A to to get closest to 0.01s.
 
-   $\frac{0.01s}{64 \mu s} - 1 = 155.25$......we'll call it $155$.
+   $OCR2A = \frac{0.01s}{64 \mu s} - 1 = 155.25$......we'll call it $155$.
 
    Remember to account for an extra count to reset the counter. So this is our setting: 155. Just to confirm:
 
-   $(155 + 1) * 64 \mu s = 9.98 ms$
+   $T_{Timer2ISR} = (155 + 1) * 64 \mu s = 9.98 ms$
 
 ## Block Diagram
 
