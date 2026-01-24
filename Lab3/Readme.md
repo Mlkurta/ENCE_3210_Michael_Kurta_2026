@@ -32,7 +32,7 @@ This project has a number of requirements:
 
    Remember to account for an extra count to reset the counter. So this is our setting: 155. Just to confirm:
 
-   $(155 + 1) * 64 \mu s = 9.92 ms$
+   $(155 + 1) * 64 \mu s = 9.98 ms$
 
 ## Block Diagram
 
@@ -44,6 +44,6 @@ This project has a number of requirements:
 
 ## xor_decoder.py
 
-Paste your desired message string for the variable s, then run. Copy + paste your new scrambled message.
+Open this file in any Python IDE, paste your desired message string for the variable s, then run. Copy + paste your new scrambled message.
 
 <img width="1200" height="413" alt="Screenshot 2026-01-24 154445" src="https://github.com/user-attachments/assets/33d929df-0c8d-4bc0-ac0a-51988a2dbe34" />
