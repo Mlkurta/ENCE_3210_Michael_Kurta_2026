@@ -42,7 +42,7 @@ This project has a number of requirements:
 
 ![image0](https://github.com/user-attachments/assets/dfb0beef-5153-4bd9-953f-9b7b3a2baddc)
 
-## xor_decoder.py
+## xor_encoder.py
 
 Open this file in any Python IDE, paste your desired message string for the variable s, then run. Copy + paste your new scrambled message.
 
