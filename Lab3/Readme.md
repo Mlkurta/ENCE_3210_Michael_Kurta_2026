@@ -42,6 +42,8 @@ This project has a number of requirements:
 
    $T_{Timer2ISR} = (155 + 1) * 64 \mu s = 9.98 ms$
 
+   So whenever the ISR fires, we'll increment a volatile global variable by 1 and reset to zero when we increment from 9 to 10.
+
 ## Block Diagram
 
 <img width="600" height="633" alt="IMG_0427" src="https://github.com/user-attachments/assets/3bb0254c-ef0a-440b-9fa0-0ca6b319ac05" />
