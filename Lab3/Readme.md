@@ -18,7 +18,15 @@ This project has a number of requirements:
 
 6. A random value will be generated to select which message to use. Activate the ADC and use analogRead() to produce a pseudo-random number as a seed for random values, i.e. randomSeed().
 
-7. Since the maximum prescalar value for Timer 2 (TCCR2B) is 1024, and the highest the Timer 2 output compare register counter (OCR2A) can be set to is 255, then a task rate of once every .1 second cannot be achieved unless we use another volatile global counter variable.
+7. Using Timer 1, it's maximum output compare counter (OCR1A) value is that of a 16-bit unsigned integer: 65,535. I was lazy and already had a sketch with Timer1 prepared for 1 second with a counter value of 62,500; so I just had to divide it by two. But more formally, this is how it fits.
+
+   $T_{timer1} = \frac{256}{16 MHz} = 16 \mu s$
+
+   We take our desired Interrupt interval time (0.5s) and figure out what we need to count to:
+
+   $\frac{0.5s}{16 \mu s} - 1 = 31249$
+
+9. Since the maximum prescalar value for Timer 2 (TCCR2B) is 1024, and the highest the Timer 2 output compare register counter (OCR2A) can be set to is 255, then a task rate of once every .1 second cannot be achieved unless we use another volatile global counter variable.
 
    $T_{timer2} = \frac{1024}{16 MHz} = 64 \mu s$
 
