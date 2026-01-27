@@ -46,7 +46,8 @@ This project has a number of requirements:
 
 ## Block Diagram
 
-<img width="600" height="633" alt="IMG_0427" src="https://github.com/user-attachments/assets/3bb0254c-ef0a-440b-9fa0-0ca6b319ac05" />
+![up Week 3--2](https://github.com/user-attachments/assets/80fbdb49-67d7-4c48-b500-53248043a44e)
+
 
 ## Operation
 
