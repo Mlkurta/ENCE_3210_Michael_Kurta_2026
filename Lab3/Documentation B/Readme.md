@@ -8,6 +8,7 @@
 
 <img width="480" height="569" alt="Screenshot 2026-01-28 092443" src="https://github.com/user-attachments/assets/809ec3c8-de50-4fee-9f00-2a28331a81e2" />
 
+## Output Waveforms
 
 <img width="480" height="569" alt="Screenshot 2026-01-28 092443" src="https://github.com/user-attachments/assets/8f972c7f-83ef-4a1c-b52a-ca1018766921" />
 
