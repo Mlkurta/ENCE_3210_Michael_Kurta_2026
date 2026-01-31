@@ -8,7 +8,7 @@ This mini-project is intended to be a prototype of a PCB Digital to Analog Conve
 
 <img width="600" height="569" alt="Screenshot 2026-01-28 092443" src="https://github.com/user-attachments/assets/3f2724be-7ce1-4df0-b067-a45682d97f64" /> 
 
-This simulation is based on the circuit built below: It outputs 0 - 4.13V, based on the bit value input into the DAC
+This simulation is based on the circuit built below: It outputs 0 - 4.13V, based on the bit value input into the DAC. It utilizes an R-2R ladder to cascade each bit's contribution to the op amp's input proportionally. It uses the TL-072 op-amp, which, while doesn't have the best single-rail characteristics, is mostly meant for prototyping, not the final product.  
 
 ## Breadboard Circuit
 
