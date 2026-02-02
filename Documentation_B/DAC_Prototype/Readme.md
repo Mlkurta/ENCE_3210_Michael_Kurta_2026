@@ -1,4 +1,4 @@
-# 10-Bit DAC
+# 10-Bit DAC Prototype
 
 ## Idea
 
