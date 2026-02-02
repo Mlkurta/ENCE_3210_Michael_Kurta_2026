@@ -18,7 +18,7 @@ Assembled circuit:
 
 <img width="480" height="569" alt="Screenshot 2026-01-28 092443" src="https://github.com/user-attachments/assets/809ec3c8-de50-4fee-9f00-2a28331a81e2" />
 
-It uses the TL-072 op-amp. This op amp is "ok" when using a single supply source (0 - 5V), while doesn't have the best single-rail characteristics, is mostly meant for prototyping, not the final product.  
+The lab-tested version uses the TL-072 op-amp. This op amp is "ok" when using a single supply source (0 - 5V), while doesn't have the best single-rail characteristics, is mostly meant for prototyping, not the final product. For the Arduino DSP Shield, We'll be using the MCP 6002 op amp because of it's single-supply performance.  This makes it more compatible (and simpler) with attaching a standard USB 5V connection.
 
 ## Output Waveforms
 
