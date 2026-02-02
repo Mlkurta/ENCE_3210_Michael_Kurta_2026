@@ -2,6 +2,8 @@
 
 ## Idea
 
+<img width="800" height="569" alt="up_DSP_Shield_Block_Diagram" src="https://github.com/user-attachments/assets/e1f6436a-0fb8-4e29-bc02-917d6eccccd6" /> 
+
 This mini-project is intended to be a prototype of a PCB Digital to Analog Converter (DAC) shield which will be built for an Arduino Uno.
 
 ## Falstad Simulation
