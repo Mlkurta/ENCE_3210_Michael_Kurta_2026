@@ -1,3 +1,3 @@
 # Completed PCB
 
-See PCB_V1_1
+See KiCAD_PCB_V1_1
