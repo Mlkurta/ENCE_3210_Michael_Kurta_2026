@@ -41,16 +41,22 @@ The layout made and traces and silkscreen prototyped in the PCB viewer:
 
 ## Assembled Shield + Arduino
 
+Fully assembled with an MCP6002 operational amplifier:
+
 ![IMG_7919](https://github.com/user-attachments/assets/5181b266-4063-4b5b-ab40-e01f150bc6fc)
 
 ## Testing
 
 Fan controller
 
+The fan controller output several different PWM stages.
+
 ![VideoToGif_GIF (1)](https://github.com/user-attachments/assets/d5412512-04fa-422c-b3dd-5fdfc5492d54)
 
 
 FSK Telemetry Modem
+
+The FSK Modem made use of the Analog 3.5 mm jacks, the IMU, the screen, the DAC, etc. 
 
 ![FSK_Telem](https://github.com/user-attachments/assets/e6de6330-77e2-4ded-9deb-94e5e24202a9)
 
