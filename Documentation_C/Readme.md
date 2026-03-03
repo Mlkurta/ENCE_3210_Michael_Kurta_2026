@@ -35,7 +35,8 @@
 
 Fan controller
 
-![Fan_contr](https://github.com/user-attachments/assets/e04590b9-744e-4f76-ada1-42cf7ccb565a)
+![VideoToGif_GIF (1)](https://github.com/user-attachments/assets/d5412512-04fa-422c-b3dd-5fdfc5492d54)
+
 
 FSK Telemetry Modem
 
