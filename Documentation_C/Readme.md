@@ -8,14 +8,14 @@ The inital idea was to have a shield to include a Digital Analog Converter (DAC)
 
 The intent for the DAC was to have 10 bit precision, since the onboard ADC is also 10 bit. The DAC was made using an R-2R architecture. This involves a chain of resisitors and a number of digital inputs, which creates cascading bit precision. The good thing about using an R-2 DAC with an Arduino is it is relatively fast. Rather than using serial communication, a DAC update can be accomplished with two instructions, since all 10  bits span across the PORT B and PORT D registers. 
 
-![IMG_0489](https://github.com/user-attachments/assets/88fbef53-2d76-4fcb-9795-29947de8017c)
+<img width="601" height="1113" alt="IMG_0489" src="https://github.com/user-attachments/assets/88fbef53-2d76-4fcb-9795-29947de8017c" />
 
 
 ## Prototyping Stage
 
 The after the DAC was whiteboard designed, a prototype was made on a breadboard:
 
-![Daccircuit](https://github.com/user-attachments/assets/9224c89c-384b-4daa-b774-bd074601dfe8)
+<img width="601" height="1113" alt="Daccircuit" src="https://github.com/user-attachments/assets/9224c89c-384b-4daa-b774-bd074601dfe8" />
 
 The following oscilloscope view is of a sine, square and triangle waveform outputs (Didn't work out so well initially).
 
