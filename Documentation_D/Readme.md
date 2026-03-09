@@ -63,10 +63,13 @@ These are parts I chose that are either identical to (or the best replication of
 
 ## Weight and Power
 
-The estimated power consumption is 496 mW. 
+The estimated power consumption is 496 mW, with an estimated mass of ~124g. This does not include the foam package itself.
 
 <img width="601" height="609" alt="Screenshot 2026-03-09 121051" src="https://github.com/user-attachments/assets/b253790d-4676-45ae-9429-c65f5249ca4f" />
 
+## Feasibility
+
+The project is broadly feasible, with the main exception that a US-sourced Humidity sensor is no longer available. If having a humidity sensor is not critical to the functionality of the device, building the Balloon Sat with components is possible, for generally under $147. The PCB can be sourced from US based Osh Park for $5 per square inch; which is around ~$30 when using a shield similarly sized to an Arduino Uno. The downside is you must allow 12-21 calendar days for the order. Small components not necessarily critical to the functioning of the Balloon Sat device may be difficult to source from US providers: such as the various colored 5mm LEDs. Other US sourced LEDs may be found in different varieties at an increased price.
 
 
 
