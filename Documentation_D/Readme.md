@@ -29,6 +29,41 @@ These are parts I chose that are either identical to (or the best replication of
 
 2x Analog Devices TMP36 Temperature Sensors
 
+2x Blue 5mm LEDs
+
+1x Orange 5mm LED
+
+1x Yellow 5mm LED
+
+1x Green 5mm LED
+
+1x Red 5mm LED
+
+2x 8-Pin stackable plug headers
+
+2x 6-Pin stackable plug headers
+
+2x DIP socket halves
+
+2x 6-Pin socket headers
+
+1x 3-Pin socket header
+
+2x 2-Pin plug breakaway headers
+
+1x 3-Pin locking headers
+
+1x 6-Pin breakaway header
+
+1x 3-Pin plug breakaway header
+
+## Block Diagram
+
+
+![BalloonSat_BD](https://github.com/user-attachments/assets/4d3c4703-f5f7-4f0a-9ce6-3d8db7148c66)
+
+
+
 
 
 
