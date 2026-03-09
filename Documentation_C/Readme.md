@@ -1,12 +1,15 @@
 
 # Introduction
 
+The purpose of this shield design was to provide some additional features and capabilities to an Arduino Uno. It provides the ability to do simple Digital Signal Processing (DSP) tasks, utilizing the built in Analog to Digital Converters (ADC), and an added 10-bit Digital to Analog Converter (DAC). Other useful features were added, such as a 128x32 OLED screen to serve as a graphic user interface, and an Inertial Measurement Unit (IMU) for acceleration and gyro monitoring. 
 
 ## Design Stage
 
-The inital idea was to have a shield to include a Digital Analog Converter (DAC) for an Arduino Uno. Also added were an IMU, 3.5mm analog input and outputs, and a small 128x32 pixel OLED screen.  Since there was some extra digital and analog pins left over, buttons and additional analog inputs with potentiometers were added.
+The inital idea was to have a shield to include a DAC for an Arduino Uno. Also added were an IMU, 3.5mm analog input and outputs, and a small 128x32 pixel OLED screen.  Since there was some extra digital and analog pins left over, buttons and additional analog inputs with potentiometers were added.
 
 The intent for the DAC was to have 10 bit precision, since the onboard ADC is also 10 bit. The DAC was made using an R-2R architecture. This involves a chain of resisitors and a number of digital inputs, which creates cascading bit precision. The good thing about using an R-2 DAC with an Arduino is it is relatively fast. Rather than using serial communication, a DAC update can be accomplished with two instructions, since all 10  bits span across the PORT B and PORT D registers. 
+
+The IMU is an MPU 6050, which transmits both acceleration and gyroscopic data for x, y, and z over I2C. This I2C bus is shared with the 128x32 OLED screen.  Additionally, there is a MCP 6002 Op Amp, which has decent rail to rail output voltage as well as single rail performance. Since the input voltage is only meant for simple 5V from USB (no dual rail, negative voltage), this Op amp is a good choice.  There is both a potentiometer to control the op amp DC bias, as well as a jumper to optionally connect the non-inverting input to ground. Two of the analog inputs (A0 and A1) are individually connected to potentiometers, which function as voltage dividers, providing between 0V and 5V DC. Lastly, Arduino Uno digital inputs D2 and D3 are connected to GND via 100k ohm pulldown resistors. Two pushbutton switches, when pressed, pull each individual digital input pins high.
 
 <img width="601" height="1113" alt="IMG_0489" src="https://github.com/user-attachments/assets/88fbef53-2d76-4fcb-9795-29947de8017c" />
 
