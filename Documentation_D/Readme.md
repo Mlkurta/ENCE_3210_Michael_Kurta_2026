@@ -61,6 +61,12 @@ These are parts I chose that are either identical to (or the best replication of
 
 <img width="601" height="1113" alt="Balloon_BDV2" src="https://github.com/user-attachments/assets/1c3b4549-107a-4685-a135-c4791d4c77ab" />
 
+## Weight and Power
+
+The estimated power consumption is 496 mW. 
+
+<img width="601" height="609" alt="Screenshot 2026-03-09 121051" src="https://github.com/user-attachments/assets/b253790d-4676-45ae-9429-c65f5249ca4f" />
+
 
 
 
