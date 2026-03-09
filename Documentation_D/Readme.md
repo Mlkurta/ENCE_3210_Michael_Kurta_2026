@@ -1,6 +1,6 @@
 # Balloon Sat High Altitude Data Collection Platform
 
-This is a repository for my High Altitude Balloon Sat cdata collection platform.
+This is a repository for my High Altitude Balloon Sat data collection platform.
 
 ## Concept
 
