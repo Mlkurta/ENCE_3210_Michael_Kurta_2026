@@ -28,40 +28,56 @@ The following oscilloscope view is of a sine, square and triangle waveform outpu
 
 The schematic was designed in KiCad:
 
-<img width="901" height="1113" alt="image" src="https://github.com/user-attachments/assets/277369d4-21be-4099-ad3c-0956b484e221" />
+<img width="900" height="1113" alt="image" src="https://github.com/user-attachments/assets/277369d4-21be-4099-ad3c-0956b484e221" />
 
 The layout made and traces and silkscreen prototyped in the PCB viewer:
 
-<img width="1592" height="1047" alt="Layout2" src="https://github.com/user-attachments/assets/850f7d81-3066-4d7f-abc3-cf4ace6aa785" />
+<img width="700" height="1047" alt="Layout2" src="https://github.com/user-attachments/assets/850f7d81-3066-4d7f-abc3-cf4ace6aa785" />
 
 3d Views of the board at different angles:
 
-<img width="919" height="1186" alt="PCB_Front" src="https://github.com/user-attachments/assets/861dee64-86b8-4a32-bd24-d0cd0fcaf474" />
+<img width="700" height="1186" alt="PCB_Front" src="https://github.com/user-attachments/assets/861dee64-86b8-4a32-bd24-d0cd0fcaf474" />
 
-<img width="938" height="1195" alt="PCB_Back" src="https://github.com/user-attachments/assets/0d4aafa1-c87c-4694-be4b-3134b440fed0" />
+<img width="700" height="1195" alt="PCB_Back" src="https://github.com/user-attachments/assets/0d4aafa1-c87c-4694-be4b-3134b440fed0" />
 
-<img width="1377" height="1137" alt="PCB_3D" src="https://github.com/user-attachments/assets/1bfb54ef-fc15-48f2-902a-ec0267f33b9a" />
+<img width="700" height="1137" alt="PCB_3D" src="https://github.com/user-attachments/assets/1bfb54ef-fc15-48f2-902a-ec0267f33b9a" />
 
-## Assembled Shield + Arduino
+## Assemble Stage
+
+Delivered PCB board (front and back)
+
+<img width="700" height="1137" alt="IMG_7939" src="https://github.com/user-attachments/assets/1cd02c37-ae7d-4b94-b359-29e8d9c73276" />
+
+<img width="700" height="1137" alt="IMG_7940" src="https://github.com/user-attachments/assets/014a4e83-e018-48b1-a9ca-2c3839869104" />
 
 Fully assembled with an MCP6002 operational amplifier:
 
-![IMG_7919](https://github.com/user-attachments/assets/5181b266-4063-4b5b-ab40-e01f150bc6fc)
+<img width="700" height="1137" alt="IMG_7919" src="https://github.com/user-attachments/assets/5181b266-4063-4b5b-ab40-e01f150bc6fc" />
 
 ## Testing
 
 Fan controller
 
-The fan controller output several different PWM stages.
+The fan controller output several different PWM stages. The fan controller outputs a PWM frequency to control a motor. The PWM changes with temperature (simulated via onboard analog potentiometer), as well as having three different fan settings, each with a different multiplier to the PWM output. 
 
 ![VideoToGif_GIF (1)](https://github.com/user-attachments/assets/d5412512-04fa-422c-b3dd-5fdfc5492d54)
 
 
 FSK Telemetry Modem
 
-The FSK Modem made use of the Analog 3.5 mm jacks, the IMU, the screen, the DAC, etc. 
+The Frequency Shift Keying (FSK) Modem made use of the Analog 3.5 mm jacks, the IMU, the screen, the DAC, etc. This project was designed as a proof of concept: That the Arduino Uno could:
+
+1. Read accelerometer data via I2C.
+2. Modulate the data for transmission
+3. Output a digital modulation waveform using the DAC
+4. Read incoming data via the ADC
+5. Demodulate the waveform and error check
+6. Output the received accelerometer data as a plot on the OLED screen via I2C
 
 ![FSK_Telem](https://github.com/user-attachments/assets/e6de6330-77e2-4ded-9deb-94e5e24202a9)
+
+
+<img width="773" height="879" alt="Screenshot 2026-03-04 193335" src="https://github.com/user-attachments/assets/711a7940-3f8f-4646-aee7-503da18cf776" />
 
 
 
