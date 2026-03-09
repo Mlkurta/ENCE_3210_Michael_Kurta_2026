@@ -59,8 +59,10 @@ These are parts I chose that are either identical to (or the best replication of
 
 ## Block Diagram
 
+<img width="601" height="1113" alt="Balloon_BDV2" src="https://github.com/user-attachments/assets/1c3b4549-107a-4685-a135-c4791d4c77ab" />
 
-![BalloonSat_BD](https://github.com/user-attachments/assets/4d3c4703-f5f7-4f0a-9ce6-3d8db7148c66)
+
+
 
 
 
