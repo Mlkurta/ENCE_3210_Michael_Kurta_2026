@@ -63,7 +63,7 @@ These are parts I chose that are either identical to (or the best replication of
 
 ## Weight and Power
 
-The estimated power consumption is 496 mW, with an estimated mass of ~124g. This does not include the foam package itself.
+The estimated power consumption is 892 mW, with an estimated mass of ~124g. This does not include the foam package itself.
 
 <img width="601" height="704" alt="image" src="https://github.com/user-attachments/assets/6db40fd3-76d1-4060-b358-27e107c30db8" />
 
