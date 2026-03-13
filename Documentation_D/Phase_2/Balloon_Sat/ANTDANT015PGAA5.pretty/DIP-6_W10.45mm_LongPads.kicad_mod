@@ -1,0 +1,238 @@
+(footprint "DIP-6_W10.45mm_LongPads"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "6-lead though-hole mounted DIP package, row spacing 10.16mm (400 mils), LongPads")
+	(tags "THT DIP DIL PDIP 2.54mm 10.16mm 400mil LongPads")
+	(property "Reference" "U2"
+		(at 3.97 -8.05 0)
+		(layer "F.SilkS")
+		(uuid "236f64a0-c3ec-446a-a397-58477457b375")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ABPDANT015PGAA5"
+		(at 4.06 8.16 0)
+		(layer "F.Fab")
+		(uuid "42d52a1a-a206-4274-b985-8c1fd0646b02")
+		(effects
+			(font
+				(size 1 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.honeywellscportal.com//index.php?ci_id=138832"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "788b4739-18a8-42ae-b3e8-d4172f348563")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Gauge pressure sensor, 0 to 15PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c38a7a55-cf2a-47bf-9c15-b49e559af735")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.27 -1.88)
+		(end 0.27 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28bdb6e1-2d88-49f2-a158-b9561c028608")
+	)
+	(fp_line
+		(start 0.27 3.1)
+		(end 7.89 3.11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7e58a4d2-25a8-4b5c-9137-183a6c6703c3")
+	)
+	(fp_line
+		(start 1.72 -3.28)
+		(end 0.27 -1.88)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a4eefa0a-56a3-4bb0-a691-8156e11d7e55")
+	)
+	(fp_line
+		(start 7.89 -3.24)
+		(end 1.72 -3.28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c2122b0b-39ab-4465-a155-e8e6a1f4d3ed")
+	)
+	(fp_line
+		(start 7.89 -3.24)
+		(end 7.89 3.11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c9e2a14-c73b-4c10-8a08-1bb73ff3c65a")
+	)
+	(fp_rect
+		(start 0.02 -7.31)
+		(end 8.14 7.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aeea00b0-2dc8-48a3-bb95-07a2645f6901")
+	)
+	(fp_line
+		(start 0.27 -1.82)
+		(end 1.77 -3.245)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "576e9c1d-a45d-4366-9c06-ca2d8f97c49a")
+	)
+	(fp_line
+		(start 0.27 3.105)
+		(end 0.27 -1.82)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5769dcd1-3847-432a-82a9-1616c92edab0")
+	)
+	(fp_line
+		(start 1.77 -3.245)
+		(end 7.88 -3.245)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc0a89d2-1a17-4bee-955f-c36fc1aaff6e")
+	)
+	(fp_line
+		(start 7.89 -3.25)
+		(end 7.89 3.105)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29348f52-c666-4b19-b53f-e2a0397d80d9")
+	)
+	(fp_line
+		(start 7.89 3.105)
+		(end 0.27 3.105)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e5a2651-5d88-453a-8e31-5b07f38197c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.08 -0.07 0)
+		(layer "F.Fab")
+		(uuid "6b048796-2033-4988-a785-5b5e873e2989")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 1.54 -5.795 270)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2fa7fde-c787-4903-b855-a055a84ed06f")
+	)
+	(pad "2" thru_hole oval
+		(at 4.08 -5.795 270)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b8d6ef9-ab4c-4170-8225-b585e2f7294c")
+	)
+	(pad "3" thru_hole roundrect
+		(at 6.62 -5.795 270)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "2f9a4522-9b9c-46f6-8678-5c37505beedc")
+	)
+	(pad "4" thru_hole oval
+		(at 6.62 5.655 270)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "846498df-a129-4113-bde4-96f85ebfc1ce")
+	)
+	(pad "5" thru_hole oval
+		(at 4.08 5.655 270)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "75ad3687-7f78-43be-b742-b09b8c5a64b5")
+	)
+	(pad "6" thru_hole oval
+		(at 1.54 5.655 270)
+		(size 2.4 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e703e85-525f-4b26-8b86-5f74c4cee70a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-6_W10.16mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
