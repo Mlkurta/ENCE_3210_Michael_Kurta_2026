@@ -11,14 +11,14 @@ The intent for the DAC was to have 10 bit precision, since the onboard ADC is al
 
 The IMU is an MPU 6050, which transmits both acceleration and gyroscopic data for x, y, and z over I2C. This I2C bus is shared with the 128x32 OLED screen.  Additionally, there is a MCP 6002 Op Amp, which has decent rail to rail output voltage as well as single rail performance. Since the input voltage is only meant for simple 5V from USB (no dual rail, negative voltage), this Op amp is a good choice.  There is both a potentiometer to control the op amp DC bias, as well as a jumper to optionally connect the non-inverting input to ground. Two of the analog inputs (A0 and A1) are individually connected to potentiometers, which function as voltage dividers, providing between 0V and 5V DC. Lastly, Arduino Uno digital inputs D2 and D3 are connected to GND via 100k ohm pulldown resistors. Two pushbutton switches, when pressed, pull each individual digital input pins high.
 
-<img width="601" height="1113" alt="IMG_0489" src="https://github.com/user-attachments/assets/88fbef53-2d76-4fcb-9795-29947de8017c" />
+<img width="801" height="1113" alt="IMG_0489" src="https://github.com/user-attachments/assets/88fbef53-2d76-4fcb-9795-29947de8017c" />
 
 
 ## Prototyping Stage
 
 The after the DAC was whiteboard designed, a prototype was made on a breadboard:
 
-<img width="601" height="1113" alt="Daccircuit" src="https://github.com/user-attachments/assets/9224c89c-384b-4daa-b774-bd074601dfe8" />
+<img width="601" height="913" alt="Daccircuit" src="https://github.com/user-attachments/assets/9224c89c-384b-4daa-b774-bd074601dfe8" />
 
 The following oscilloscope view is of a sine, square and triangle waveform outputs (Didn't work out so well initially).
 
@@ -28,31 +28,31 @@ The following oscilloscope view is of a sine, square and triangle waveform outpu
 
 The schematic was designed in KiCad:
 
-<img width="900" height="1113" alt="image" src="https://github.com/user-attachments/assets/277369d4-21be-4099-ad3c-0956b484e221" />
+<img width="900" height="513" alt="image" src="https://github.com/user-attachments/assets/277369d4-21be-4099-ad3c-0956b484e221" />
 
 The layout made and traces and silkscreen prototyped in the PCB viewer:
 
-<img width="700" height="1047" alt="Layout2" src="https://github.com/user-attachments/assets/850f7d81-3066-4d7f-abc3-cf4ace6aa785" />
+<img width="700" height="447" alt="Layout2" src="https://github.com/user-attachments/assets/850f7d81-3066-4d7f-abc3-cf4ace6aa785" />
 
 3d Views of the board at different angles:
 
-<img width="700" height="1186" alt="PCB_Front" src="https://github.com/user-attachments/assets/861dee64-86b8-4a32-bd24-d0cd0fcaf474" />
+<img width="700" height="486" alt="PCB_Front" src="https://github.com/user-attachments/assets/861dee64-86b8-4a32-bd24-d0cd0fcaf474" />
 
-<img width="700" height="1195" alt="PCB_Back" src="https://github.com/user-attachments/assets/0d4aafa1-c87c-4694-be4b-3134b440fed0" />
+<img width="700" height="495" alt="PCB_Back" src="https://github.com/user-attachments/assets/0d4aafa1-c87c-4694-be4b-3134b440fed0" />
 
-<img width="700" height="1137" alt="PCB_3D" src="https://github.com/user-attachments/assets/1bfb54ef-fc15-48f2-902a-ec0267f33b9a" />
+<img width="700" height="437" alt="PCB_3D" src="https://github.com/user-attachments/assets/1bfb54ef-fc15-48f2-902a-ec0267f33b9a" />
 
 ## Assemble Stage
 
 Delivered PCB board (front and back)
 
-<img width="700" height="1137" alt="IMG_7939" src="https://github.com/user-attachments/assets/1cd02c37-ae7d-4b94-b359-29e8d9c73276" />
+<img width="700" height="437" alt="IMG_7939" src="https://github.com/user-attachments/assets/1cd02c37-ae7d-4b94-b359-29e8d9c73276" />
 
-<img width="700" height="1137" alt="IMG_7940" src="https://github.com/user-attachments/assets/014a4e83-e018-48b1-a9ca-2c3839869104" />
+<img width="700" height="437" alt="IMG_7940" src="https://github.com/user-attachments/assets/014a4e83-e018-48b1-a9ca-2c3839869104" />
 
 Fully assembled with an MCP6002 operational amplifier:
 
-<img width="700" height="1137" alt="IMG_7919" src="https://github.com/user-attachments/assets/5181b266-4063-4b5b-ab40-e01f150bc6fc" />
+<img width="700" height="437" alt="IMG_7919" src="https://github.com/user-attachments/assets/5181b266-4063-4b5b-ab40-e01f150bc6fc" />
 
 ## Testing
 
@@ -77,7 +77,7 @@ The Frequency Shift Keying (FSK) Modem made use of the Analog 3.5 mm jacks, the 
 ![FSK_Telem](https://github.com/user-attachments/assets/e6de6330-77e2-4ded-9deb-94e5e24202a9)
 
 
-<img width="773" height="879" alt="Screenshot 2026-03-04 193335" src="https://github.com/user-attachments/assets/711a7940-3f8f-4646-aee7-503da18cf776" />
+<img width="773" height="479" alt="Screenshot 2026-03-04 193335" src="https://github.com/user-attachments/assets/711a7940-3f8f-4646-aee7-503da18cf776" />
 
 
 
